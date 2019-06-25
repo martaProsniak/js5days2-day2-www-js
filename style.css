@@ -10,7 +10,8 @@
 }
 
 .technologies__col {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .technologies__img {
