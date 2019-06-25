@@ -24,10 +24,29 @@ body, html {
 
 /* HERO */
 
+.glide__slides {
+    margin: 0;
+}
+
+.glide__slide {
+    position: relative;
+}
+
 .glide__slide-img {
     height: 500px;
     width: 100%;
     object-fit: cover;
+}
+
+.glide__slide-header{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 0;
 }
 
 /* END OF HERO */
