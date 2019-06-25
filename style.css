@@ -11,6 +11,7 @@
 
 .container--border{
     border-radius: 4px;
+    padding: 20px; /*padding together with border*/
 }
 
 /* END OF CONTAINER */
