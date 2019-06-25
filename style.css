@@ -11,5 +11,6 @@
 
 .responsive{
     height: 50px;
-    background-color: blue;
+    background-color: yellow;
+    font-size: 3em;
 }
