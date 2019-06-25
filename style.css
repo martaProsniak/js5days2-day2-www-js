@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* webside won't scroll left or right (x)*/
+}
+
 /* CONTAINER */
 
 .container {
@@ -15,6 +21,16 @@
 }
 
 /* END OF CONTAINER */
+
+/* HERO */
+
+.glide__slide-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* END OF HERO */
 
 .technologies__col {
     display: flex;
