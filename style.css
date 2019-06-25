@@ -9,9 +9,11 @@
     color: green;
 }
 
-.responsive{
-    height: 50px;
-    background-color: gray;
-    font-size: 3em;
-    border: solid 2px black;
+.technologies__col {
+    text-align: center;
+}
+
+.technologies__img {
+   height: 200px;
+   max-width: 100%;
 }

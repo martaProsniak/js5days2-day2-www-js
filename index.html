@@ -11,7 +11,7 @@
         type="text/css">
     <!--Library adding responsive css classes-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
-        type="text/css"> 
+        type="text/css">
     <link rel="stylesheet" href="./style.css">
     <title>iSA JS w 5 dni WWW</title>
 </head>
@@ -21,12 +21,29 @@
     <h2 class="title title--green">Hello!</h2>
     <h2 class="title">Hello!</h2>
 
-    <div class="row">
-        <!-- more than 1 css class - names should be separated by spaces-->
-        <div class="responsive col-xs-12 col-sm-4">1</div>
-        <div class="responsive col-xs-12 col-sm-4">2</div>
-        <div class="responsive col-xs-12 col-sm-4">3</div>
-    </div>
+    <section id="technologies">
+        <div class="technologies">
+            <div class="row">
+                <!-- more than 1 css class - names should be separated by spaces-->
+                <div class="responsive col-xs-12 col-sm-4">
+                    <div class="technologies__col">
+                        <img class="technologies__img" src="./img/html.png" alt="html">
+                    </div>
+                </div>
+                <div class="responsive col-xs-12 col-sm-4">
+                    <div class="technologies__col">
+                        <img class="technologies__img" src="./img/css.png" alt="css">
+                    </div>
+                </div>
+                <div class="responsive col-xs-12 col-sm-4">
+                    <div class="technologies__col">
+                        <img class="technologies__img" src="./img/js.png" alt="js">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <div class="glide">
         <div class="glide__track" data-glide-el="track">
